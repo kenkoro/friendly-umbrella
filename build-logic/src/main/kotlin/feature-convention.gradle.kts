@@ -14,6 +14,7 @@ dependencies {
 
     implementation(libs.getLibrary("dagger"))
     implementation(libs.getLibrary("dagger-android"))
+    implementation(libs.getLibrary("dagger-android-support"))
     ksp(libs.getLibrary("dagger-compiler"))
     ksp(libs.getLibrary("dagger-android-processor"))
 }

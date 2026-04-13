@@ -5,6 +5,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.viewbinding.ViewBinding
+import dagger.android.support.DaggerFragment
 
 abstract class BoundFragment<VB : ViewBinding> : DaggerFragment() {
     private var _binding: VB? = null
